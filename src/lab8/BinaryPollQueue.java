@@ -68,7 +68,7 @@ public class BinaryPollQueue<E extends Comparable<E>> {
     
     
     public E priorityPoll(){
-        E max = stk1.peek();//***changed this from null to stk1.peek
+        E max = stk1.peek();
         E e = null;
         if(stk1.size() == 0){
             return null;
